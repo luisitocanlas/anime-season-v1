@@ -12,8 +12,8 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
             <Navbar.Brand href="/" style={{"color":'gold'}}>
-                <FontAwesomeIcon icon = {faVideoSlash}/>Currently only the Home button is operational, the rest are non-functional
-
+                <FontAwesomeIcon icon = {faVideoSlash}/>
+                
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbarScroll" />
@@ -29,9 +29,9 @@ const Header = () => {
                     <NavLink className="nav-link" to="/watchList">Watch List</NavLink>
                 </Nav>
 
-                <Button variant="outline-info" className="me-2">Login</Button>
+                {/* <Button variant="outline-info" className="me-2">Login</Button>
 
-                <Button variant="outline-info">Register</Button>
+                <Button variant="outline-info">Register</Button> */}
             </Navbar.Collapse>
         </Container>
     </Navbar>    

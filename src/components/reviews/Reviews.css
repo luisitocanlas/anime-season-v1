@@ -1,0 +1,22 @@
+.anime-poster-container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.anime-poster2 > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .anime-poster-container2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .anime-poster2 > img{
+        max-height: 80%;
+        max-width: 80%;
+    }
+}

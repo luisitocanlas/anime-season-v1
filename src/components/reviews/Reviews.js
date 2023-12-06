@@ -1,3 +1,4 @@
+import './Reviews.css';
 import {useEffect, useRef} from 'react';
 import api from '../../api/axiosConfig';
 import {useParams} from 'react-router-dom';
@@ -46,8 +47,8 @@ const Reviews = ({getAnimeData, anime, reviews, setReviews}) => {
             <Col><h3>Reviews</h3></Col>
         </Row>
 
-        <Row className='mt-2'>
-            <Col>
+        <Row className='mt-2 anime-poster-container2'>
+            <Col className='anime-poster2'>
                 <h4>{anime?.name}</h4>
                 <img src={anime?.poster} alt="" />
             </Col>
