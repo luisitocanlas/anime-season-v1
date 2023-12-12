@@ -16,7 +16,7 @@ const Hero = ({animes}) => {
 
   return (
     <div className = 'movie-carousel-container'>
-        <Carousel>
+        <Carousel autoPlay={false}>
             {
                 animes?.map((anime) => {
                     return(
